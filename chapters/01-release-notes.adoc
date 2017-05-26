@@ -1,0 +1,25 @@
+== Release Notes
+
+=== **Version 3.1.79-11**
+
+This is the release notes for version 3.1.79-11.
+
+==== What's new in 3.1.79-11
+
+* New licensing model for IPS sensors.
+* Basic LDAP integration: you can authenticate using your LDAP server.
+* Support for organization licenses. 
+* Timestamping for syslog events in vault module.
+
+==== Improvements in 3.1.79-11
+
+* None in this release
+
+==== Resolved Issues in 3.1.79-11
+
+* Fix #9589: Invalid option in snort initscript environment for IPS and IPS_TEST mode
+* Fix #9029: No statistics in monitor for IDS/IPS metrics (perfmonitor stats).
+* Fix #9557: Units in license do not match.
+* Vul #9590: Administrator privilege escalation
+
+
