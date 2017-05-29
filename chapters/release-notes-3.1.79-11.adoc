@@ -1,0 +1,34 @@
+== **Release Notes Version 3.1.79-11**
+
+This is the release notes for version 3.1.79-11.
+
+=== What's new
+
+* New licensing model for IPS sensors.
+* Basic LDAP integration: you can authenticate using your LDAP server.
+* Support for event counter in organization licenses.
+* Timestamping for syslog events in vault module.
+
+=== Improvements
+
+* None in this release
+
+=== Resolved Issues
+
+* BugFix #9589: Invalid option in snort initscript environment for IPS and IPS_TEST mode.
+* BugFix #9029: No statistics in monitor for IDS/IPS metrics (perfmonitor stats).
+* BugFix #9557: Units in license do not match.
+* SecFix #9590: Administrator privilege escalation.
+* BugFix #9586: Error loading VRT rules 2.9.8.x.
+* BugFix #9564: Incorrect module Vault in main menu.
+* BugFix #9052: Widget IPS "Grouped Unique" does not work correctly.
+* SecFix #9578: Malicious file upload for all users accounts.
+* SecFix #9576: Obtaining list of all users.
+* SecFix #9574: Modification of user dashboards and reports.
+* BugFix #9525: Wrong repo in client proxy.
+* BugFix #9521: Wrong domain for support center webui.
+* BugFix #9543: Invalid value from flow crahes samza enrichment
+* BugFix #9555: Fix logo in error view.
+* BugFix #9556: Error in description for bps.
+* BugFix #9138: No graphs in Traffic view for big interval queries.
+

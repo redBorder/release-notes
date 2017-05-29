@@ -1,0 +1,26 @@
+== **Release Notes Version 3.1.79-10**
+
+This is the release notes for version 3.1.79-10.
+
+=== What's new
+
+* Support for organization licenses.
+* New framework for trial version licenses (30 days).
+* Vault module for syslog and CEP messages.
+* Alternatives http port for webUI.
+* CEP (Complex Event Processing) correlation engine.
+
+=== Improvements
+
+* Create rule.json to allow better backups in OLAP.
+
+=== Resolved Issues
+
+* BugFix #9465: Bad reindexing configuration.
+* BugFix #9286: No IP address for flow sensor associated to proxy client.
+* BugFix #9531: Error connection to chef from dswatcher.
+* BugFix #9329: Wrong cdomain in slave nodes.
+* BugFix #9509: Chef-client service stopped during register.
+* BugFix #9350: big queries problem in historical.
+* BugFix #9308: Issue with shared dashboards after lock/unlock action.
+* BugFix #9338: Issue running map widgets.

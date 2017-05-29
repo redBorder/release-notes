@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="us">
 <head>
 <meta charset="UTF-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
@@ -704,20 +704,23 @@ b.conum * { color: inherit !important; }
 <h1>redborder release notes</h1>
 <div class="details">
 <span id="author" class="author">redborder</span><br>
-<span id="revnumber">version 1.0.0</span>
+<span id="revnumber">version 3.1</span>
 </div>
 <div id="toc" class="toc2">
-<div id="toctitle">Índice</div>
+<div id="toctitle">Index</div>
 <ul class="sectlevel1">
-<li><a href="#_release_notes">Release Notes</a>
+<li><a href="#__strong_release_notes_version_3_1_79_11_strong"><strong>Release Notes Version 3.1.79-11</strong></a>
 <ul class="sectlevel2">
-<li><a href="#__strong_version_3_1_79_11_strong"><strong>Version 3.1.79-11</strong></a>
-<ul class="sectlevel3">
-<li><a href="#_what_s_new_in_3_1_79_11">What&#8217;s new in 3.1.79-11</a></li>
-<li><a href="#_improvements_in_3_1_79_11">Improvements in 3.1.79-11</a></li>
-<li><a href="#_resolved_issues_in_3_1_79_11">Resolved Issues in 3.1.79-11</a></li>
+<li><a href="#_what_s_new">What&#8217;s new</a></li>
+<li><a href="#_improvements">Improvements</a></li>
+<li><a href="#_resolved_issues">Resolved Issues</a></li>
 </ul>
 </li>
+<li><a href="#__strong_release_notes_version_3_1_79_10_strong"><strong>Release Notes Version 3.1.79-10</strong></a>
+<ul class="sectlevel2">
+<li><a href="#_what_s_new_2">What&#8217;s new</a></li>
+<li><a href="#_improvements_2">Improvements</a></li>
+<li><a href="#_resolved_issues_2">Resolved Issues</a></li>
 </ul>
 </li>
 </ul>
@@ -725,15 +728,13 @@ b.conum * { color: inherit !important; }
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_release_notes">Release Notes</h2>
+<h2 id="__strong_release_notes_version_3_1_79_11_strong"><strong>Release Notes Version 3.1.79-11</strong></h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="__strong_version_3_1_79_11_strong"><strong>Version 3.1.79-11</strong></h3>
 <div class="paragraph">
 <p>This is the release notes for version 3.1.79-11.</p>
 </div>
-<div class="sect3">
-<h4 id="_what_s_new_in_3_1_79_11">What&#8217;s new in 3.1.79-11</h4>
+<div class="sect2">
+<h3 id="_what_s_new">What&#8217;s new</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -743,7 +744,7 @@ b.conum * { color: inherit !important; }
 <p>Basic LDAP integration: you can authenticate using your LDAP server.</p>
 </li>
 <li>
-<p>Support for organization licenses.</p>
+<p>Support for event counter in organization licenses.</p>
 </li>
 <li>
 <p>Timestamping for syslog events in vault module.</p>
@@ -751,8 +752,8 @@ b.conum * { color: inherit !important; }
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_improvements_in_3_1_79_11">Improvements in 3.1.79-11</h4>
+<div class="sect2">
+<h3 id="_improvements">Improvements</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -761,24 +762,130 @@ b.conum * { color: inherit !important; }
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_resolved_issues_in_3_1_79_11">Resolved Issues in 3.1.79-11</h4>
+<div class="sect2">
+<h3 id="_resolved_issues">Resolved Issues</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Fix #9589: Invalid option in snort initscript environment for IPS and IPS_TEST mode</p>
+<p>BugFix #9589: Invalid option in snort initscript environment for IPS and IPS_TEST mode.</p>
 </li>
 <li>
-<p>Fix #9029: No statistics in monitor for IDS/IPS metrics (perfmonitor stats).</p>
+<p>BugFix #9029: No statistics in monitor for IDS/IPS metrics (perfmonitor stats).</p>
 </li>
 <li>
-<p>Fix #9557: Units in license do not match.</p>
+<p>BugFix #9557: Units in license do not match.</p>
 </li>
 <li>
-<p>Vul #9590: Administrator privilege escalation</p>
+<p>SecFix #9590: Administrator privilege escalation.</p>
+</li>
+<li>
+<p>BugFix #9586: Error loading VRT rules 2.9.8.x.</p>
+</li>
+<li>
+<p>BugFix #9564: Incorrect module Vault in main menu.</p>
+</li>
+<li>
+<p>BugFix #9052: Widget IPS "Grouped Unique" does not work correctly.</p>
+</li>
+<li>
+<p>SecFix #9578: Malicious file upload for all users accounts.</p>
+</li>
+<li>
+<p>SecFix #9576: Obtaining list of all users.</p>
+</li>
+<li>
+<p>SecFix #9574: Modification of user dashboards and reports.</p>
+</li>
+<li>
+<p>BugFix #9525: Wrong repo in client proxy.</p>
+</li>
+<li>
+<p>BugFix #9521: Wrong domain for support center webui.</p>
+</li>
+<li>
+<p>BugFix #9543: Invalid value from flow crahes samza enrichment</p>
+</li>
+<li>
+<p>BugFix #9555: Fix logo in error view.</p>
+</li>
+<li>
+<p>BugFix #9556: Error in description for bps.</p>
+</li>
+<li>
+<p>BugFix #9138: No graphs in Traffic view for big interval queries.</p>
 </li>
 </ul>
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="__strong_release_notes_version_3_1_79_10_strong"><strong>Release Notes Version 3.1.79-10</strong></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is the release notes for version 3.1.79-10.</p>
+</div>
+<div class="sect2">
+<h3 id="_what_s_new_2">What&#8217;s new</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Support for organization licenses.</p>
+</li>
+<li>
+<p>New framework for trial version licenses (30 days).</p>
+</li>
+<li>
+<p>Vault module for syslog and CEP messages.</p>
+</li>
+<li>
+<p>Alternatives http port for webUI.</p>
+</li>
+<li>
+<p>CEP (Complex Event Processing) correlation engine.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_improvements_2">Improvements</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Create rule.json to allow better backups in OLAP.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_resolved_issues_2">Resolved Issues</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>BugFix #9465: Bad reindexing configuration.</p>
+</li>
+<li>
+<p>BugFix #9286: No IP address for flow sensor associated to proxy client.</p>
+</li>
+<li>
+<p>BugFix #9531: Error connection to chef from dswatcher.</p>
+</li>
+<li>
+<p>BugFix #9329: Wrong cdomain in slave nodes.</p>
+</li>
+<li>
+<p>BugFix #9509: Chef-client service stopped during register.</p>
+</li>
+<li>
+<p>BugFix #9350: big queries problem in historical.</p>
+</li>
+<li>
+<p>BugFix #9308: Issue with shared dashboards after lock/unlock action.</p>
+</li>
+<li>
+<p>BugFix #9338: Issue running map widgets.</p>
+</li>
+</ul>
 </div>
 </div>
 </div>

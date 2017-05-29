@@ -1,12 +1,12 @@
 :doctype: book
 :author: redborder
 :copyrights: GNU Affero General Public License
-:lang: es
+:lang: us
 :docinfo:
-:revnumber: 1.0.0
+:revnumber: 3.1
 :keywords: redborder, release, changelog
 :toc:
-:toc-title: Índice
+:toc-title: Index
 :toclevels: 3
 :toc-position: left
 :nofooter:
@@ -17,5 +17,6 @@
 
 = redborder release notes
 
-include::chapters/01-release-notes.adoc[]
+include::chapters/release-notes-3.1.79-11.adoc[]
+include::chapters/release-notes-3.1.79-10.adoc[]
 
