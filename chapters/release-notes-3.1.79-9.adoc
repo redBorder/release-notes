@@ -1,0 +1,23 @@
+== **Release Notes Version 3.1.79-9**
+
+This is the release notes for version 3.1.79-9.
+
+=== What's new
+
+* New licensing model.
+
+=== Improvements
+
+* Better reports documents.
+
+=== Resolved Issues
+
+* BugFix #9166: Wrong data bag values for monitors.
+* BugFix #9158: Byte limit overflow in license.
+* BugFix #8518: Disabled manager actions after proxy and snort generic registering.
+* BugFix #9061: Events accepted from previous IPS registered in a reinstalled manager.
+* BugFix #9287: Incorrect nprobe configuration in client proxy.
+* SecFix #5152: AWS Keys contained in sensors deployments.
+* BugFix #8634: Verification error in client proxy registering process.
+* BugFix #8577: Service rb-apspoller init fails in client proxy.
+ 

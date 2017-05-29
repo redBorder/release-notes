@@ -24,3 +24,4 @@ This is the release notes for version 3.1.79-10.
 * BugFix #9350: big queries problem in historical.
 * BugFix #9308: Issue with shared dashboards after lock/unlock action.
 * BugFix #9338: Issue running map widgets.
+

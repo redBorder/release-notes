@@ -6,7 +6,7 @@
 :revnumber: 3.1
 :keywords: redborder, release, changelog
 :toc:
-:toc-title: Index
+:toc-title: Release notes index
 :toclevels: 3
 :toc-position: left
 :nofooter:
@@ -15,8 +15,9 @@
 :table-caption: Tabla
 :stem: latexmath
 
-= redborder release notes
+= **redborder** release notes
 
 include::chapters/release-notes-3.1.79-11.adoc[]
 include::chapters/release-notes-3.1.79-10.adoc[]
+include::chapters/release-notes-3.1.79-9.adoc[]
 
