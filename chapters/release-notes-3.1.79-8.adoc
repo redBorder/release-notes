@@ -1,0 +1,28 @@
+== **Release Notes Version 3.1.79-8**
+
+This is the release notes for version 3.1.79-8.
+
+=== What's new
+
+* New framework for next licensing model.
+* Support for serial number for teldat routers.
+
+=== Improvements
+
+* Add sensors to the global filters.
+* New application name by default.
+* User-Agent dimension activated by default.
+
+=== Resolved Issues
+
+* BugFix #9159: Error on first login settings information.
+* BugFix #9193: No sensor UUID dimension in realtime.
+* BugFix #9059: Incorrect services objects decoding.
+* BugFix #9006: Remove dimension "Group Name" in monitor.
+* Bugfix #9023: Incorrect reverse resolution for WAN IP Name.
+* BugFix #9028: Incorrect data in monitor's graph.
+* BugFix #9058: Incorrect traffic values.
+* BugFix #9057: Error creatin sensor after removing it.
+* BugFix #8393: Incorrect view of menu button.
+* BugFix #8656: k2hhtp always set insecure option as false in client proxy.
+

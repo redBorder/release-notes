@@ -20,4 +20,5 @@
 include::chapters/release-notes-3.1.79-11.adoc[]
 include::chapters/release-notes-3.1.79-10.adoc[]
 include::chapters/release-notes-3.1.79-9.adoc[]
+include::chapters/release-notes-3.1.79-8.adoc[]
 
