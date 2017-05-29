@@ -1,0 +1,138 @@
+== *Release Notes Version 3.1.79 - 3.1.79-7*
+
+This is the release notes for version 3.1.79 to 3.1.79-7.
+
+=== What's new
+
+* Update librdkafka to version 0.9.4
+* New dimensions for live versions
+* Remove dimensions
+* Show help for dashboard view.
+* When adding sensor add link to license if there is no license available 
+* First login should request some parameters 
+* Disable Auto and None license
+* Add checkbox to enable/disable filters on global filter section
+* Apply changes on global filter pressing ENTER to be faster
+* Allow create application objects for super admins
+* New dimension called Product Type 
+* Add new dimension for url
+* New format of Applications data bag
+* Change Client DNS resolution to LAN DNS resolution
+* Delete dimensions from config init.rb
+* Add wan_interface_description and lan_interface_description at lib/modules/flow/config/init.rb
+* Update license process
+* Change label for observation id putting (optional) too
+* Validation to prevent that a license use more bucket that allowed
+* Move CheckAPStatusJob to ap_state module
+* License request view
+* Change email / password for first login
+* New default dashboard
+* Create a rake task for creating applications databag
+* Persist association of sensors and licenses in Chef
+* Associate sensors creation with license buckets.
+* Licenses with limits per sensor's type
+* Show sensor's limit from license in the GUI
+* Define license format
+* Change email layout to new one
+* Disable MAC and VLAN objects
+* New dimension product_type
+* Set the pie data details optional on the widget properties
+* Once the user is created a default dashboard will be copied for this user 
+* Delete current default dashboard and add new default dashboard
+* Change sensor flow icon 
+* Create new dimensions called lan_description and wan_description on Interface category
+* New overview widgets
+* Add product type as a property for Flow Sensors
+* Allow change service port objects by users
+* Update default application list 
+* Hide workers and job for non admin users
+* New dimension exporting_process_id 
+* New lan_l4_port and wan_l4_port
+* Graph representing the bytes uptake on the cluster
+* Add specific filters at globals filters
+* Rename/add flow dimensions
+* Add observation_id to flow sensors
+* dynamic {INGRESS/EGRESS}_INTERFACE_{NAME/DESCRIPTION}, SELECTOR_ID_NAME and APPLICATION_ID_NAME via options template
+* Objects to associate names to ports
+* nprobe new features
+* Dashboard's URL
+* Global filters per dashboard
+
+=== Improvements
+
+* At Global Filter, apply changes automatically when selecting Range or other selectors.
+* Make Global Filter more compact
+* Make smaller the range selector on Global filter
+* Move TOS from Datalink to Network category
+* Improve modal form for new license
+* Create default dashboard with delayed job.
+* Align subheaders to the right on Domain menu correctly
+* Changes in appearance
+* New look&feel images and color palette
+* Move Applications into Objects view
+* Duplicated dashboards if shared by user and by domain
+* Clarify the dashboard list
+* Include all metrics in the Raw detail view.
+* Functional tests for locations
+
+=== Resolved Issues
+
+* BugFix #9035: CheckAlarmJob fails
+* BugFix #9033: APP objects creation fails
+* BugFix #9032: Druid dimensions changed in rb_event
+* BugFix #9021: Error enrichment with wan_ip_country_code
+* BugFix #9020: Remove WAN Net Address
+* BugFix #9019: Remove dimensions
+* BugFix #9017: Javascript error when searching a sensor in Tree
+* BugFix #9016: Disable autocomplete at input search in Sensor Tree
+* BugFix #9001: When Product Type is changed, the license selector show Auto and None.
+* BugFix #8994: Make icons the same size when searching at Sensor's Tree
+* BugFix #8992: Disable private key at General Settings
+* BugFix #8991: When showing a Floor at Overview, show AP title correctly
+* BugFix #8975: Error 500 at loading licenses after trying to load IPS license
+* BugFix #8973: Graph outside the margin
+* BugFix #8968: If the license file is not valid (like pdf) throw an excption not captured
+* BugFix #8965: Don't allow create Client Map widget if AP State module is not active.
+* BugFix #8964: Error accesing cluster uuid at Setting model.
+* BugFix #8963: Global filters are not included in Overview queries.
+* BugFix #8962: Objects APP searches doesn't work
+* BugFix #8952: Legend on Horizontal Bar when the widget is too small
+* BugFix #8947: Error in icon "+" in overview view
+* BugFix #8946: Only show domains in Global filter
+* BugFix #8935: Error on uploaded live image
+* BugFix #8913: Error on rake db:seed on first installation
+* BugFix #8910: Wrong style in Select Organization view.
+* BugFix #8898: Error on organization_users relation
+* BugFix #8890: Labels in Global Filter are not showed
+* BugFix #8888: Error rendering some widgets in reports
+* BugFix #8885: Error in ApplicationObject callback to store in Chef
+* BugFix #8884: Outlier option in contextual menu
+* BugFix #8869: Installation error
+* BugFix #8861: Validate uniqueness of licences
+* BugFix #8852: Invite user window freezed after submitting it
+* BugFix #8790: Avoid warning console
+* BugFix #8786: When a widget is cloned in another dashboard, it's rendered in the current dashboard.
+* BugFix #8785: Problem with dashboards when it has a lot of rows.
+* BugFix #8784: Error when clicking a widget
+* BugFix #8780: Error in reports/dashboards breadcrumb links
+* BugFix #8778: Error importing data (applications objects) on 10.0.150.17
+* BugFix #8777: Error creating app object 
+* BugFix #8776: Error creating blocks in a report.
+* BugFix #8765: Overview widget redirection shows wrong metric in tops
+* BugFix #8758: Error exporting CSV applications
+* BugFix #8755: Error trying to create a widget on a report
+* BugFix #8716: Obtain the last details of RAW table doesn't work 
+* BugFix #8695: Unable to select granularities marked as Slow query
+* BugFix #8694: Improve creation of default widgets depending on active modules
+* BugFix #8693: Change the company value in db/seed
+* BugFix #8692: New gem into Gemfile
+* BugFix #8691: Remove wrong references in emails and change the palette color
+* BugFix #8690: Hide sections that do not work
+* BugFix #8688: Fix support link
+* BugFix #8672: The name of the proxy cannot contains "'".
+* BugFix #8586: Change image for recovery password view
+* BugFix #8566: Wrong percent bps values in widgets
+* BugFix #8526: Incorrect bps units scale.
+* BugFix #8378: Test the WebUI in different browsers and devices
+* BugFix #8342: Fix timestamp format in netflow.
+* BugFix #8951: Error changing sensor geolocation

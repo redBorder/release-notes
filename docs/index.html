@@ -737,6 +737,13 @@ b.conum * { color: inherit !important; }
 <li><a href="#_resolved_issues_4">Resolved Issues</a></li>
 </ul>
 </li>
+<li><a href="#__strong_release_notes_version_3_1_79_3_1_79_7_strong"><strong>Release Notes Version 3.1.79 - 3.1.79-7</strong></a>
+<ul class="sectlevel2">
+<li><a href="#_what_s_new_5">What&#8217;s new</a></li>
+<li><a href="#_improvements_5">Improvements</a></li>
+<li><a href="#_resolved_issues_5">Resolved Issues</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -1031,6 +1038,413 @@ b.conum * { color: inherit !important; }
 </li>
 <li>
 <p>BugFix #8656: k2hhtp always set insecure option as false in client proxy.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="__strong_release_notes_version_3_1_79_3_1_79_7_strong"><strong>Release Notes Version 3.1.79 - 3.1.79-7</strong></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is the release notes for version 3.1.79 to 3.1.79-7.</p>
+</div>
+<div class="sect2">
+<h3 id="_what_s_new_5">What&#8217;s new</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Update librdkafka to version 0.9.4</p>
+</li>
+<li>
+<p>New dimensions for live versions</p>
+</li>
+<li>
+<p>Remove dimensions</p>
+</li>
+<li>
+<p>Show help for dashboard view.</p>
+</li>
+<li>
+<p>When adding sensor add link to license if there is no license available</p>
+</li>
+<li>
+<p>First login should request some parameters</p>
+</li>
+<li>
+<p>Disable Auto and None license</p>
+</li>
+<li>
+<p>Add checkbox to enable/disable filters on global filter section</p>
+</li>
+<li>
+<p>Apply changes on global filter pressing ENTER to be faster</p>
+</li>
+<li>
+<p>Allow create application objects for super admins</p>
+</li>
+<li>
+<p>New dimension called Product Type</p>
+</li>
+<li>
+<p>Add new dimension for url</p>
+</li>
+<li>
+<p>New format of Applications data bag</p>
+</li>
+<li>
+<p>Change Client DNS resolution to LAN DNS resolution</p>
+</li>
+<li>
+<p>Delete dimensions from config init.rb</p>
+</li>
+<li>
+<p>Add wan_interface_description and lan_interface_description at lib/modules/flow/config/init.rb</p>
+</li>
+<li>
+<p>Update license process</p>
+</li>
+<li>
+<p>Change label for observation id putting (optional) too</p>
+</li>
+<li>
+<p>Validation to prevent that a license use more bucket that allowed</p>
+</li>
+<li>
+<p>Move CheckAPStatusJob to ap_state module</p>
+</li>
+<li>
+<p>License request view</p>
+</li>
+<li>
+<p>Change email / password for first login</p>
+</li>
+<li>
+<p>New default dashboard</p>
+</li>
+<li>
+<p>Create a rake task for creating applications databag</p>
+</li>
+<li>
+<p>Persist association of sensors and licenses in Chef</p>
+</li>
+<li>
+<p>Associate sensors creation with license buckets.</p>
+</li>
+<li>
+<p>Licenses with limits per sensor&#8217;s type</p>
+</li>
+<li>
+<p>Show sensor&#8217;s limit from license in the GUI</p>
+</li>
+<li>
+<p>Define license format</p>
+</li>
+<li>
+<p>Change email layout to new one</p>
+</li>
+<li>
+<p>Disable MAC and VLAN objects</p>
+</li>
+<li>
+<p>New dimension product_type</p>
+</li>
+<li>
+<p>Set the pie data details optional on the widget properties</p>
+</li>
+<li>
+<p>Once the user is created a default dashboard will be copied for this user</p>
+</li>
+<li>
+<p>Delete current default dashboard and add new default dashboard</p>
+</li>
+<li>
+<p>Change sensor flow icon</p>
+</li>
+<li>
+<p>Create new dimensions called lan_description and wan_description on Interface category</p>
+</li>
+<li>
+<p>New overview widgets</p>
+</li>
+<li>
+<p>Add product type as a property for Flow Sensors</p>
+</li>
+<li>
+<p>Allow change service port objects by users</p>
+</li>
+<li>
+<p>Update default application list</p>
+</li>
+<li>
+<p>Hide workers and job for non admin users</p>
+</li>
+<li>
+<p>New dimension exporting_process_id</p>
+</li>
+<li>
+<p>New lan_l4_port and wan_l4_port</p>
+</li>
+<li>
+<p>Graph representing the bytes uptake on the cluster</p>
+</li>
+<li>
+<p>Add specific filters at globals filters</p>
+</li>
+<li>
+<p>Rename/add flow dimensions</p>
+</li>
+<li>
+<p>Add observation_id to flow sensors</p>
+</li>
+<li>
+<p>dynamic {INGRESS/EGRESS}_INTERFACE_{NAME/DESCRIPTION}, SELECTOR_ID_NAME and APPLICATION_ID_NAME via options template</p>
+</li>
+<li>
+<p>Objects to associate names to ports</p>
+</li>
+<li>
+<p>nprobe new features</p>
+</li>
+<li>
+<p>Dashboard&#8217;s URL</p>
+</li>
+<li>
+<p>Global filters per dashboard</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_improvements_5">Improvements</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>At Global Filter, apply changes automatically when selecting Range or other selectors.</p>
+</li>
+<li>
+<p>Make Global Filter more compact</p>
+</li>
+<li>
+<p>Make smaller the range selector on Global filter</p>
+</li>
+<li>
+<p>Move TOS from Datalink to Network category</p>
+</li>
+<li>
+<p>Improve modal form for new license</p>
+</li>
+<li>
+<p>Create default dashboard with delayed job.</p>
+</li>
+<li>
+<p>Align subheaders to the right on Domain menu correctly</p>
+</li>
+<li>
+<p>Changes in appearance</p>
+</li>
+<li>
+<p>New look&amp;feel images and color palette</p>
+</li>
+<li>
+<p>Move Applications into Objects view</p>
+</li>
+<li>
+<p>Duplicated dashboards if shared by user and by domain</p>
+</li>
+<li>
+<p>Clarify the dashboard list</p>
+</li>
+<li>
+<p>Include all metrics in the Raw detail view.</p>
+</li>
+<li>
+<p>Functional tests for locations</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_resolved_issues_5">Resolved Issues</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>BugFix #9035: CheckAlarmJob fails</p>
+</li>
+<li>
+<p>BugFix #9033: APP objects creation fails</p>
+</li>
+<li>
+<p>BugFix #9032: Druid dimensions changed in rb_event</p>
+</li>
+<li>
+<p>BugFix #9021: Error enrichment with wan_ip_country_code</p>
+</li>
+<li>
+<p>BugFix #9020: Remove WAN Net Address</p>
+</li>
+<li>
+<p>BugFix #9019: Remove dimensions</p>
+</li>
+<li>
+<p>BugFix #9017: Javascript error when searching a sensor in Tree</p>
+</li>
+<li>
+<p>BugFix #9016: Disable autocomplete at input search in Sensor Tree</p>
+</li>
+<li>
+<p>BugFix #9001: When Product Type is changed, the license selector show Auto and None.</p>
+</li>
+<li>
+<p>BugFix #8994: Make icons the same size when searching at Sensor&#8217;s Tree</p>
+</li>
+<li>
+<p>BugFix #8992: Disable private key at General Settings</p>
+</li>
+<li>
+<p>BugFix #8991: When showing a Floor at Overview, show AP title correctly</p>
+</li>
+<li>
+<p>BugFix #8975: Error 500 at loading licenses after trying to load IPS license</p>
+</li>
+<li>
+<p>BugFix #8973: Graph outside the margin</p>
+</li>
+<li>
+<p>BugFix #8968: If the license file is not valid (like pdf) throw an excption not captured</p>
+</li>
+<li>
+<p>BugFix #8965: Don&#8217;t allow create Client Map widget if AP State module is not active.</p>
+</li>
+<li>
+<p>BugFix #8964: Error accesing cluster uuid at Setting model.</p>
+</li>
+<li>
+<p>BugFix #8963: Global filters are not included in Overview queries.</p>
+</li>
+<li>
+<p>BugFix #8962: Objects APP searches doesn&#8217;t work</p>
+</li>
+<li>
+<p>BugFix #8952: Legend on Horizontal Bar when the widget is too small</p>
+</li>
+<li>
+<p>BugFix #8947: Error in icon "+" in overview view</p>
+</li>
+<li>
+<p>BugFix #8946: Only show domains in Global filter</p>
+</li>
+<li>
+<p>BugFix #8935: Error on uploaded live image</p>
+</li>
+<li>
+<p>BugFix #8913: Error on rake db:seed on first installation</p>
+</li>
+<li>
+<p>BugFix #8910: Wrong style in Select Organization view.</p>
+</li>
+<li>
+<p>BugFix #8898: Error on organization_users relation</p>
+</li>
+<li>
+<p>BugFix #8890: Labels in Global Filter are not showed</p>
+</li>
+<li>
+<p>BugFix #8888: Error rendering some widgets in reports</p>
+</li>
+<li>
+<p>BugFix #8885: Error in ApplicationObject callback to store in Chef</p>
+</li>
+<li>
+<p>BugFix #8884: Outlier option in contextual menu</p>
+</li>
+<li>
+<p>BugFix #8869: Installation error</p>
+</li>
+<li>
+<p>BugFix #8861: Validate uniqueness of licences</p>
+</li>
+<li>
+<p>BugFix #8852: Invite user window freezed after submitting it</p>
+</li>
+<li>
+<p>BugFix #8790: Avoid warning console</p>
+</li>
+<li>
+<p>BugFix #8786: When a widget is cloned in another dashboard, it&#8217;s rendered in the current dashboard.</p>
+</li>
+<li>
+<p>BugFix #8785: Problem with dashboards when it has a lot of rows.</p>
+</li>
+<li>
+<p>BugFix #8784: Error when clicking a widget</p>
+</li>
+<li>
+<p>BugFix #8780: Error in reports/dashboards breadcrumb links</p>
+</li>
+<li>
+<p>BugFix #8778: Error importing data (applications objects) on 10.0.150.17</p>
+</li>
+<li>
+<p>BugFix #8777: Error creating app object</p>
+</li>
+<li>
+<p>BugFix #8776: Error creating blocks in a report.</p>
+</li>
+<li>
+<p>BugFix #8765: Overview widget redirection shows wrong metric in tops</p>
+</li>
+<li>
+<p>BugFix #8758: Error exporting CSV applications</p>
+</li>
+<li>
+<p>BugFix #8755: Error trying to create a widget on a report</p>
+</li>
+<li>
+<p>BugFix #8716: Obtain the last details of RAW table doesn&#8217;t work</p>
+</li>
+<li>
+<p>BugFix #8695: Unable to select granularities marked as Slow query</p>
+</li>
+<li>
+<p>BugFix #8694: Improve creation of default widgets depending on active modules</p>
+</li>
+<li>
+<p>BugFix #8693: Change the company value in db/seed</p>
+</li>
+<li>
+<p>BugFix #8692: New gem into Gemfile</p>
+</li>
+<li>
+<p>BugFix #8691: Remove wrong references in emails and change the palette color</p>
+</li>
+<li>
+<p>BugFix #8690: Hide sections that do not work</p>
+</li>
+<li>
+<p>BugFix #8688: Fix support link</p>
+</li>
+<li>
+<p>BugFix #8672: The name of the proxy cannot contains "'".</p>
+</li>
+<li>
+<p>BugFix #8586: Change image for recovery password view</p>
+</li>
+<li>
+<p>BugFix #8566: Wrong percent bps values in widgets</p>
+</li>
+<li>
+<p>BugFix #8526: Incorrect bps units scale.</p>
+</li>
+<li>
+<p>BugFix #8378: Test the WebUI in different browsers and devices</p>
+</li>
+<li>
+<p>BugFix #8342: Fix timestamp format in netflow.</p>
+</li>
+<li>
+<p>BugFix #8951: Error changing sensor geolocation</p>
 </li>
 </ul>
 </div>
