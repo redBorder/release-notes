@@ -1,0 +1,39 @@
+== **Release Notes Version 3.1.79-13**
+
+* Date of release: 30/June/2017
+* Type: Stable
+* Main changes: redborder manager and IPS.
+
+This is the release notes for version 3.1.79-13. The main goal for this version has been the new
+logs system engine based on logstash and the integration for correlation rules editor in the web interface.
+Multiple bugs and security bugs has been reported and fixed, prior the next release LTS.
+
+=== What's new
+
+* Integration for CEP rules in webUI
+* Basic use cases for correlation.
+* Support for VAULT licensing.
+* New parser engine integration for VAULT.
+* First parser rules for VAULT.
+
+=== Improvements
+
+* Integration of VAULT with middlemanager (cluster with data enrichment)
+* hostname definition based on RFC 1123 and 952.
+* Improvement for syslog collector.
+* Improvement for VAULT storage.
+
+=== Resolved Issues
+
+* BugFix #9766: Sensors help view updated.
+* BugFix #9806: Fix loop in event-counter configuration.
+* BugFix #9884: Fix Bytes/Day counter in Licenses view.
+* SecFix #9573: Obtaining dashboard configuration for any user.
+* BugFix #9559: Duplicated checkalarmJob.
+* SecFix #9588: Information exposure through an error message.
+* BugFix #9821: Changing user settings to "Administrator" does not work.
+* SecFix #9575: Obtaining user ID of active users.
+* BugFix #9885: Reaching of license limits does not work.
+* BugFix #9510: Fix quickstart documentation.
+* BugFix #9446: Error loading default monitors for flow sensors.
+
