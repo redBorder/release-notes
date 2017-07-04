@@ -1,0 +1,36 @@
+== **Release Notes Version 3.1.79-12**
+
+* Date of release: 14/June/2017
+* Type: Stable
+* Main changes: redborder manager and IPS.
+
+This is the release notes for version 3.1.79-12. Multiple bugs and security bugs has been reported and fixed, prior the next release LTS.
+
+=== What's new
+
+* VAULT indexing with middlemanager.
+* Store raw logs in S3.
+* Full hashing for all types of logs.
+
+=== Improvements
+
+* None in this release
+
+=== Resolved Issues
+
+* SecFix #9581: Adding domains of differnt type.
+* BugFix #9684: Traffic received with no license.
+* SecFix #9572: Domain and probe creation for any domain/user.
+* BugFix #9552: Error in widget compare.
+* SecFix #9584: Unofficial domains disclosure.
+* SecFix #9579: Loading malicious URL to any user dashboard.
+* BugFix #9675: Trial license doesn't allow create and assign IPS rules.
+* BugFix #9660: rb-monitor check incorrect kafka server.
+* BugFix #9341: Indexing task logs are not configured correctly.
+* BugFix #9678: Chef nprobe template is incorrect.
+* BugFix #9563: Forgot password issue.
+* SecFix #9571: Obtaining list and config all from domains and probes.
+* BugFix #9779: CEP can't parse multiple zk or kafka servers in config.yml file.
+* SecFix #9580: Modification and deletion of user alarms.
+* BugFix #9680: Manager reinstalled still accept events from IPS previously registered.
+
