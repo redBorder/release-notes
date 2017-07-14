@@ -1,0 +1,27 @@
+== **Release Notes Version 3.1.79-14**
+
+* Date of release: 14/July/2017
+* Type: Stable
+* Main changes: redborder manager and IPS.
+
+This is the release notes for version 3.1.79-14.
+Multiple bugs and security bugs has been reported and fixed, prior the next release LTS.
+
+=== What's new
+
+* New use cases in CEP.
+* New normalization and dimensions for VAULT.
+
+=== Improvements
+
+* Improvement for IPS and managers update process.
+* Improvement for licensing model.
+
+=== Resolved Issues
+
+* BugFix #8990: Wrong rules number for IPS.
+* BugFix #9053: Too much time enabling/disabling IPS rules.
+* BugFix #9952: Fix dimensions in rb-samza-bi.
+* BugFix #9536: Can't create monitor widgets.
+* BugFix #10019: IPS proxy fails registering process.
+
