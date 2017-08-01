@@ -1,0 +1,34 @@
+== **Release Notes Version 3.1.79-15**
+
+* Date of release: 31/July/2017
+* Type: Stable
+* Main changes: redborder manager and IPS.
+
+This is the release notes for version 3.1.79-15.
+Multiple bugs and security bugs has been reported and fixed, prior the next release LTS.
+
+=== What's new
+
+* New normalization and dimensions for VAULT.
+* Syslog messages go through manager and they can be relay to an external syslog server.
+
+=== Improvements
+
+* SSl certificate deletion confimation.
+
+=== Resolved Issues
+
+* BugFix #10004: Regex validation for web URL in initial and General settings.
+* BugFix #9769: Error creating sensor flow via API.
+* BugFix #10098: Rake task to assign product type.
+* BugFix #9060: Wrong values in alarms.
+* BugFix #10112: Wrong images in email templates.
+* BugFix #10101: Error on CEP migration.
+* BugFix #10033: Java downgrades after manager update.
+* BugFix #10035: Wrong values in normalized dimensions in VAULT
+* BugFix #10005: Error rendering cluster diagram widget.
+* BugFix #9964: All filters are rmoved after apply an Advanced Search.
+* BugFix #9976: Incorrect sensor name in VAULT sensor tab.
+* BugFix #10086: Overview widgets are not rendered in some situations.
+* BugFix #10006: SedReportJob fails.
+
