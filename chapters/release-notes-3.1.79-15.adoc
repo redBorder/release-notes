@@ -6,6 +6,10 @@
 
 This is the release notes for version 3.1.79-15.
 Multiple bugs and security bugs has been reported and fixed, prior the next release LTS.
+If you want to update from a version prior to 3.1.79-15, please download and
+execute first this script in the node where you will make the cluster update process:
+
+http://repo.redborder.com/utils/rb_preupdate_79-15.sh
 
 === What's new
 
