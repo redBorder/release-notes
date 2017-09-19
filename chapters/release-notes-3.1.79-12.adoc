@@ -28,7 +28,7 @@ This is the release notes for version 3.1.79-12. Multiple bugs and security bugs
 * BugFix #9660: rb-monitor check incorrect kafka server.
 * BugFix #9341: Indexing task logs are not configured correctly.
 * BugFix #9678: Chef nprobe template is incorrect.
-* BugFix #9563: Forgot password issue.
+* BugFix #9563: Forgot password issue and infinite redirection at login page.
 * SecFix #9571: Obtaining list and config all from domains and probes.
 * BugFix #9779: CEP can't parse multiple zk or kafka servers in config.yml file.
 * SecFix #9580: Modification and deletion of user alarms.
