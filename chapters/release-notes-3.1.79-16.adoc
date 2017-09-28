@@ -1,0 +1,34 @@
+== **Release Notes Version 3.1.79-16**
+
+* Date of release: 02/Oct/2017
+* Type: Stable
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.79-16.
+Multiple bugs and security bugs has been reported and fixed, prior the next release LTS.
+If you want to update from a version prior to 3.1.79-15, please download and
+execute first this script in the node where you will make the cluster update process:
+
+http://repo.redborder.com/utils/rb_preupdate_79-15.sh
+
+=== What's new
+
+* Correlation rules from factory.
+* Availability of extended information about license usage (MB/Day) in graphical and text (CSV) format.
+* Audit of RAW logs (VAULT) from S3.
+
+=== Improvements
+
+* New set of columns for raw VAULT view.
+* Extended CEP documentation in the knowledgebase from http://support.redborder.com.
+
+=== Resolved Issues
+
+* BugFix #9939: Add sensors button must be removed in organization mode cluster.
+* BugFix #10195: Scaterplot overwrite elements from the limits.
+* BugFix #10111: IPS rb_sysconf can't register against a manager domain.
+* BugFix #9946: Report block doesn't load just after creation.
+* BugFix #10196: Inconsistent license status from web and from CLI.
+* BugFix #9125: Graphic issue with null values.
+* BugFix #10064: Proxy register fails when URL is not an IP address.
+
