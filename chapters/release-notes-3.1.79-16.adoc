@@ -1,7 +1,7 @@
 == **Release Notes Version 3.1.79-16**
 
-* Date of release: 02/Oct/2017
-* Type: Stable
+* Date of release: 19/Oct/2017
+* Type: Standard
 * Main changes: redborder manager.
 
 This is the release notes for version 3.1.79-16.
@@ -16,11 +16,15 @@ http://repo.redborder.com/utils/rb_preupdate_79-15.sh
 * Correlation rules from factory.
 * Availability of extended information about license usage (MB/Day) in graphical and text (CSV) format.
 * Audit of RAW logs (VAULT) from S3.
+* New dimensions ip_country_code and public_ip
 
 === Improvements
 
 * New set of columns for raw VAULT view.
+* Removed obsolete notify to mobile option in Alarms.
+* Disabled session redirection after login.
 * Extended CEP documentation in the knowledgebase from http://support.redborder.com.
+* RAW view show only last hour by default. You need to use 'Filter -> Advanced Search' to change window time.
 
 === Resolved Issues
 
@@ -31,4 +35,16 @@ http://repo.redborder.com/utils/rb_preupdate_79-15.sh
 * BugFix #10196: Inconsistent license status from web and from CLI.
 * BugFix #9125: Graphic issue with null values.
 * BugFix #10064: Proxy register fails when URL is not an IP address.
+* BugFix #10205: Sensor filter string overflow in global filters.
+* BugFix #10281: events-counter stop working after few days.
+* BugFix #10347: Load new rows in RAW tables doesn't work.
+* BugFix #10342: Error modifying licenses in sensor removed.
+* BugFix #10270: Empty file download for event details at Vault RAW view.
+* BugFix #10320: dswatcher panics with no product type in sensor.
+* BugFix #10267: CheckAlarmJob doesn't start with alarms assigned to disabled users.
+* BugFix #10323: Wrong help image in dashboard.
+* BugFix #10274: Different values from raw view and from widget in traffic module.
+* BugFix #10206: Error in RAW widgets.
+* BugFix #10276: Error enabling/disabling users in User view.
+* BugFix #10232: Error disabling CEP rules from webGUI.
 

@@ -1,7 +1,7 @@
 == **Release Notes Version 3.1.79-11**
 
 * Date of release: 01/June/2017
-* Type: Stable
+* Type: Standard
 * Main changes: redborder manager and IPS.
 
 This is the release notes for version 3.1.79-11. The main goal for this version has been a new licensing model, 

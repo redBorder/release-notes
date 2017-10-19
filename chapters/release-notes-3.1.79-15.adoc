@@ -1,7 +1,7 @@
 == **Release Notes Version 3.1.79-15**
 
 * Date of release: 31/July/2017
-* Type: Stable
+* Type: Standard
 * Main changes: redborder manager and IPS.
 
 This is the release notes for version 3.1.79-15.
