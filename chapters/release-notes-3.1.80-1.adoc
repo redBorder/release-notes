@@ -1,0 +1,43 @@
+== **Release Notes Version 3.1.80-1**
+
+* Date of release: 15/Dec/2017
+* Type: LTS
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-1 LTS.
+Multiple bugs has been reported and fixed.
+If you want to update from a version prior to 3.1.79-15, please download and
+execute first this script in the node where you will make the cluster update process:
+
+http://repo.redborder.com/utils/rb_preupdate_79-15.sh
+
+=== What's new
+
+* New Community edition.
+* Introduction to VAULT/logstash documentation.
+* New dimension ACTION on VAULT.
+* Support for IPS proxy policy assigment with new licensing model.
+* Disable rules using CSV file import.
+* DNS resolution on widgets.
+* Help for dashboard view.
+* New documentation IPS Administration.
+
+=== Improvements
+
+* Improved backup cluster process.
+* Better SSL Certificate handler.
+* Improved bypass action from web interface.
+* Fast search in regex expression.
+* Hourly update rules support
+
+=== Resolved Issues
+
+* BugFix #10524: Error in category for VAULT
+* BugFix #10362: Last-check-in pointer appears in flow sensors with no APs.
+* BugFix #10488: Community: Wrong ET rules classification.
+* BugFix #10489: Community: IPS Rules's actions are missed.
+* BugFix #10486: Community: Rules version sources missing.
+* BugFix #10422: In organization mode, licenses error listing.
+* BugFix #10312: Fix adding widget in reports.
+* BugFix #10425: Missing UUIDs in VAULT data.
+
