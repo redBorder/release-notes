@@ -21,6 +21,9 @@ http://repo.redborder.com/utils/rb_preupdate_79-15.sh
 * DNS resolution on widgets.
 * Help for dashboard view.
 * New documentation IPS Administration.
+* Filter by organization on CSV consumption file.
+* New set of rules for VAULT and CEP.
+* New datasources in CEP (monitor, VAULT, flow, events).
 
 === Improvements
 
@@ -28,7 +31,9 @@ http://repo.redborder.com/utils/rb_preupdate_79-15.sh
 * Better SSL Certificate handler.
 * Improved bypass action from web interface.
 * Fast search in regex expression.
-* Hourly update rules support
+* Hourly update rules support.
+* Show local URL by default for Web URL parameter in General settings.
+* Improvements for removing rules versions.
 
 === Resolved Issues
 
@@ -40,4 +45,14 @@ http://repo.redborder.com/utils/rb_preupdate_79-15.sh
 * BugFix #10422: In organization mode, licenses error listing.
 * BugFix #10312: Fix adding widget in reports.
 * BugFix #10425: Missing UUIDs in VAULT data.
+* BugFix #9940: Error in rb_sysconf creating multiple bondings.
+* BugFix #10401: Wrong datasources getting info from licenses view.
+* BugFix #10275: Error in Social sensor configured only fintering by text.
+* BugFix #10354: Error in events-counter with SIGUSR1 signals.
+* BugFix #10318: Map widget error exporting to PDF in reports with "Past Period".
+* BugFix #10313: Issues with reports (more than one page).
+* BugFix #10335: Flow sensors set product_type attribute as integer when is imported from CSV.
+* BugFix #10310: Map widget dissapears when PDF report is generated.
+* BugFix #10317: Error exporting multiserie widget in PDF reports.
+
 
