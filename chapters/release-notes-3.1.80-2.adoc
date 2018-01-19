@@ -1,0 +1,26 @@
+== **Release Notes Version 3.1.80-2**
+
+* Date of release: 19/Jan/2018
+* Type: LTS
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-2 LTS.
+Multiple bugs has been reported and fixed.
+If you want to update from a version prior to 3.1.79-15, please download and
+execute first this script in the node where you will make the cluster update process:
+
+http://repo.redborder.com/utils/rb_preupdate_79-15.sh
+
+=== What's new
+
+* New sflow support.
+* Notice when license is about to expire.
+
+=== Improvements
+
+* VAULT documentation.
+
+=== Resolved Issues
+
+* No issues resolved in this release.
+
