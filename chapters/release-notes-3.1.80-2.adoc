@@ -19,8 +19,9 @@ http://repo.redborder.com/utils/rb_preupdate_79-15.sh
 === Improvements
 
 * VAULT documentation.
+* New logstash pipeline support.
 
 === Resolved Issues
 
-* No issues resolved in this release.
+* BugFix #10573: Update logstash to 6.1.1 due to bugs in pipeline processing.
 
