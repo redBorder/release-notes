@@ -1,0 +1,32 @@
+== **Release Notes Version 3.1.80-4**
+
+* Release date: 10/Aug/2018
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-4. Multiple bugs has been reported and fixed.
+
+=== What's new
+
+* None in this release
+
+=== Improvements
+
+* None in this release
+
+=== Resolved issues
+
+* BugFix #10774: Fix problem with s3cmd.
+* BugFix #10775: Fix problem on check licenses daily.
+* BugFix #10776: Fix problem on check licenses weekly.
+* BugFix #10840: Fix spaces names problem on vault sensors.
+* BugFix #10961: Fix mobility filters problem.
+* BugFix #10962: Fix mobility widgets problem.
+* BugFix #10965: Matching rails version with redBorder version.
+* BugFix #11011: Fix adding a Vault/Flow with the same IP problem.
+* BugFix #11014: Fix dashboard pictures aspect ratio problem.
+* BugFix #11013: Fix bug updating ip on flow was not really updated.
+* BugFix #11027: Fix import sensors vault/social and error on the job helper.
+* BugFix #11032: Removing loggly option on the website.
+* BugFix #11068: Fix problem on rsyslog mmrfc5424addhmacm problem.
+
