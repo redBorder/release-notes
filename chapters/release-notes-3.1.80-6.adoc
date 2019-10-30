@@ -1,0 +1,42 @@
+== **Release Notes Version 3.1.80-6**
+
+* Release date: 30/Oct/2019
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-6.
+Multiple bugs has been reported and fixed.
+
+=== What's new
+
+* New kernel update to 2.6.32-754.
+* New druid version 0.12.3.
+* New keepalived version 2.0.18.
+* Exporter functionality in proxy.
+* Arpwatch integration with the exporter.
+* Vault plugins support.
+* Redfish, IPMI, SNMP custom monitors.
+* Sflow support in proxy.
+
+=== Improvements
+
+* Improved groupBy query to v2 with the new version of druid.
+* Support new hardware with the new version of the linux kernel.
+* Set a default druid rule of one month when install using the wizard.
+* Add sflow to the load balance via keepalived.
+* GUI improvements.
+* HTTPS support for Meraki.
+
+=== Resolved Issues
+
+* BugFix #11659: Fix bug on pretag sFlow service.
+* BugFix #11676: Fix bug on default dashboard.
+* BugFix #11703: Fix bug on kill scripts druid services.
+* BugFix #11727: Fix export zones in sensors.
+* BugFix #11729: Fix logstash limit logs storage.
+* BugFix #11731: Fix on metadata cron job script.
+* BugFix #11736: Fix keepalived not working correctly.
+* BugFix #11748: Fix Meraki not working properly.
+* BugFix #11750: Fix snort preprocessor IIS Unicode map error.
+* BugFix #11752: Fix filters on gui not working.
+* BugFix #11652: Fix on VirtualIP GUI integration not working properly.
