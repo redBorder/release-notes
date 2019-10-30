@@ -40,3 +40,4 @@ Multiple bugs has been reported and fixed.
 * BugFix #11750: Fix snort preprocessor IIS Unicode map error.
 * BugFix #11752: Fix filters on gui not working.
 * BugFix #11652: Fix on VirtualIP GUI integration not working properly.
+
