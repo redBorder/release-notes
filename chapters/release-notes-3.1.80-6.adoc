@@ -6,6 +6,10 @@
 
 This is the release notes for version 3.1.80-6.
 Multiple bugs has been reported and fixed.
+If you want to update from a version prior to 3.1.80-6, please download and
+execute first this script in the node where you will make the cluster update process:
+
+http://repo.redborder.com/utils/rb_preupdate_80-6.sh
 
 === What's new
 
