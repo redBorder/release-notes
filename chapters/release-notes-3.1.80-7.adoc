@@ -1,0 +1,28 @@
+== **Release Notes Version 3.1.80-7**
+
+* Release date: 06/Dec/2019
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-7.
+Multiple bugs has been reported and fixed.
+
+=== Improvements
+
+* Device Sensor support in proxy/exporter
+
+=== Resolved Issues
+
+* BugFix #11802: rb-exporter grey out managment interface
+* BugFix #11804: console port not working on new kernel version
+* BugFix #11804: console port not working on new kernel version
+* BugFix #11837: Error 500 on advance filters in Mobility module
+* BugFix #11842: Monitor Categories creation permissions
+* BugFix #11854: Unique menu not showing correctly
+* BugFix #11857: rb-sociald log rotation
+* BugFix #11872: Error on memory calculation for druid historical threads
+* BugFix #11873: Error 500 on AP view
+* BugFix #11878: SNMP monitor unit interger Error
+* BugFix #11884: Widget is empty in some timezones
+
+
