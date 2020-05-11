@@ -1,0 +1,20 @@
+== **Release Notes Version 3.1.80-9**
+
+* Release date: 11/May/2020
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-9.
+Multiple bugs has been reported and fixed.
+
+=== Improvements
+
+* Improvement #12033 Update logstash to 7.4.2
+* Improvement #12040 New full enrichment with logstash/realtime and namespaces support
+* Improvement #12137 Add support for rb_radius on realtime
+
+=== Resolved Issues
+
+* BugFix #12053: Fix error on rb_get_bulkstats_columns script
+* BugFix #12120: Fix rb_state default with realtime in manager role
+* BugFix #12127: Add missing dst_mac field on rb-exporter
