@@ -7,6 +7,10 @@
 This is the release notes for version 3.1.80-7.
 Multiple bugs has been reported and fixed.
 
+=== What's new
+
+* None in this release
+
 === Improvements
 
 * Device Sensor support in proxy/exporter
@@ -24,5 +28,4 @@ Multiple bugs has been reported and fixed.
 * BugFix #11873: Error 500 on AP view
 * BugFix #11878: SNMP monitor unit interger Error
 * BugFix #11884: Widget is empty in some timezones
-
 
