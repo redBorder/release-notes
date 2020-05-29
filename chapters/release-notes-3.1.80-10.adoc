@@ -1,0 +1,31 @@
+== **Release Notes Version 3.1.80-10**
+
+* Release date: 30/May/2020
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-30.
+Multiple bugs has been reported and fixed.
+
+=== What's new
+
+* None in this release
+
+=== Improvements
+
+* Improvement #12174: A new way to clean memcache system
+* Improvement #12189: Ehect the disk after installation
+
+=== Resolved Issues
+
+* BugFix #12222: Edit button hide to non admin users on flow and vault sensors
+* BugFix #12224: Increase time of workers to complete rule db versions
+* BugFix #12228: Device sensor was not draggable.
+* BugFix #12230: Edit organizations affects to megabytes_limit and http2k service
+* BugFix #12205: Darklist not in memcache after installation
+* BugFix #12205: On widgets title is overwritten byt columnname
+* BugFix #11790: rb_clean_segments only taking into account the last rule apply
+* BugFix #12067: reports fix and integration with new widgets
+* BugFix #12097: Audition on flow sensors not showing up
+* BugFix #12192: Same vault sensor name in different organizations
+* BugFIx #12198: Remove dashes from bulkstats directories
