@@ -1,0 +1,55 @@
+== **Release Notes Version 3.1.80-11**
+
+* Release date: 14/Oct/2020
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-11.
+Multiple bugs has been reported and fixed.
+
+=== What's new
+
+* Add more languages to webui (We support English and Spanish)
+* Vault plugins can be manage from the webui
+* Shodan.io on default lookup sources
+* Configurable login banner on webui and CLI
+* Many security improvements on the webui and CLI
+
+=== Improvements
+
+* Improvement #12155: Creating CEP rule in a more graphical/user friendly  way 
+* Improvement #12328: User notification on the last access to the system
+* Improvement #12329: Increase strong passwords on users
+* Improvement #12330: Add maximum number of attempts to sign in to the webui.
+* Improvement #12337: Add an experiration time on users passwords
+* Improvement #12341: Remove tftp from manager and proxy for security reasons
+* Improvement #12344: Root and Admin users get block for 5 minutes after a 3 time fail login (CLI)
+* Improvement #12346: Add an inactivity time for SSH connections of 30 days.
+* Improvement #12360: Users can search on tabs in every module now 
+* Improvement #12362: Add a close, close all and close to right tab button on modules
+* Improvement #12379: You can now import and export correatlion engine rules.
+* Improvement #12419: Default certification version of webui to version 3
+* Improvement #12434: New openssl 1.0.1e-58
+
+=== Resolved Issues
+
+* BugFix #11790: Cleaning segments on namespaces.
+* BugFix #12067: Fix on reports with new hardware status widgets
+* BugFix #12159: Atop logs filling up the disk
+* BugFix #12224: Workers timeout on destroying IPS/IDS rules.
+* BugFix #12259: Error on registration when DNS is not set.
+* BugFix #12323: Missing bulkstats and refish columns from monitor module
+* BugFix #12349: Root and admin cannot be disable from users on webui
+* BugFix #12351: Update RPM in IPS now is working
+* BugFix #12365: Sync problem on webui when clicking too fast
+* BugFix #12370: Application, and other objects default list was remove after creating a new one
+* BugFix #12372: Object vlan was not working on IPS enrichment
+* BugFix #12429: Wrong web redirection after creating widgets from a module
+
+
+
+
+
+
+
+

@@ -4,7 +4,7 @@
 * Type: Standard
 * Main changes: redborder manager.
 
-This is the release notes for version 3.1.80-30.
+This is the release notes for version 3.1.80-10.
 Multiple bugs has been reported and fixed.
 
 === What's new
@@ -14,7 +14,7 @@ Multiple bugs has been reported and fixed.
 === Improvements
 
 * Improvement #12174: A new way to clean memcache system
-* Improvement #12189: Ehect the disk after installation
+* Improvement #12189: Eject the disk after installation
 
 === Resolved Issues
 
