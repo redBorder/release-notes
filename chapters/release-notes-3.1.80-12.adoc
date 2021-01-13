@@ -1,0 +1,65 @@
+== **Release Notes Version 3.1.80-12**
+
+* Release date: 13/Jan/2021
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-12.
+Multiple bugs has been reported and fixed.
+
+=== What's new
+
+* Nothing new on this release.
+
+
+=== Improvements
+
+* Improvement #12649: install npdi 3.4 for pmacctd in proxy
+
+=== Resolved Issues
+
+* BugFix #12544: CEP: Validation doesn´t work in 'New Rule Wizard'
+* BugFix #12545: CEP: Failed to export rules created using the wizard
+* BugFix #12709: CEP: Translation missing on import rule
+* BugFix #12263: CEP: error messages have weird characters
+* BugFix #12542: CEP: Cannot add new output when creation a rule.
+* BugFix #12492: CEP: Creation error on default rules
+* BugFix #12550: Alarms: Not allowing null search values when creating filter
+* BugFix #12696: Alarms: Missing translation en.monitor2 on formulary
+* BugFix #12569: Social: Tiles view giving druid error
+* BugFix #12698: Social: Please Wait hangs on RAW info view with error 500
+* BugFix #12570: Dashboards: Error 500 when importing dashboard from other manager
+* BugFix #12536: Reports: Error 500 when a wrong file is inserted
+* BugFix #12540: Reports: Generate PDF button not working
+* BugFix #12567: Reports: Error when a future date is selected
+* BugFix #12609: Reports/Dashboards: Problem when a different file is uploaded
+* BugFix #12671: Reports/Dashboards: Problem uploading a file that is not an image in the widget EDITOR
+* BugFix #12632: Cluster Settings: Save button is not working
+* BugFix #12513: Cluster Settings: Delete all the default rules problem
+* BugFix #12520: Cluster Settings: Broken time period value on Historial Rules
+* BugFix #12524: Cluster Setting: Rule title docs not change when the rule type is changed
+* BugFix #12526: General Settings: Delete button in port variables not working
+* BugFix #12516: General Settings: "Disappearing" categories
+* BugFix #12525: General Settings: Error 500 in Port Variables
+* BugFix #12527: General Settings: Grey box in GEoIP
+* BugFix #12502: General Settings: Not numeric limit for "Autoreload Dashboard time" and "Autoreload Raw Time"
+* BugFix #12514: General Settings: Broken default druid rules
+* BugFix #12690: Intrussion: tr.ips translation error on RAW view
+* BugFix #12684: Traffic: tr.flow translation error on RAW view 
+* BugFix #12686: Vault: tr.vault translation error on RAW view
+* BugFix #12688: Sensors: Reputation Policies Import CSV Sensor
+* BugFix #12666: Sensors: Signature Policies Import CSV Sensor
+* BugFix #12489: Sensors: cloud registration problem
+* BugFix #12519: Sensors: IP Variables import not adding correctly
+* BugFix #12551: Sensors: Device sensor error when clicking on Hardware Info returns Error 500.
+* BugFix #12678: Widgets: The name of the uploaded image file does not appear
+* BugFix #12692: Widgets: Columns translation error on RAW Streams / Table widgets for Intrussion, Social and Vault
+* BugFix #12694: Widgets: Error translation Hardware info widget
+* BugFix #12538: Monitor Categories: missing OID information
+* BugFix #12534: Monitor Categories: Importation error 
+* BugFix #12583: Proxy: missing rb-ale sensor
+* BugFix #12700: Rule Versions: help information not showing correctly
+* BugFix #12532: Licenses: Wrong format request
+* BugFix #12574: NMSP: plugin filter retrieves stores without checking on existence
+* BugFix #12501: Mobility: Applying a filter on the fields in the status tab does not work
+* BugFix #12497: Mobility: Save Current Filter does not do anything
