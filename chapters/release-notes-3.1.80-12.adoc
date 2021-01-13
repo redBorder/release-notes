@@ -63,3 +63,5 @@ Multiple bugs has been reported and fixed.
 * BugFix #12574: NMSP: plugin filter retrieves stores without checking on existence
 * BugFix #12501: Mobility: Applying a filter on the fields in the status tab does not work
 * BugFix #12497: Mobility: Save Current Filter does not do anything
+
+
