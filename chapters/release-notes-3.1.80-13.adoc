@@ -40,3 +40,5 @@ Multiple bugs has been reported and fixed.
 * BugFix #12518: Error 500! in IP Variables, General Settings
 * BugFix #12538: Can't save a new filter in Advanced Search category (Social module)
 * BugFix #12541: Hanging Screen In Reports while Removing Page
+
+
