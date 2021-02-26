@@ -1,0 +1,42 @@
+== **Release Notes Version 3.1.80-13**
+
+* Release date: 28/Feb/2021
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-13.
+Multiple bugs has been reported and fixed.
+
+=== What's new
+
+* Nothing new on this release.
+
+=== Improvements
+
+* Improvement #12758: Reports: Selecting Widgets Buttons
+* Improvement #12702: Rotate logstash logs with logrotate
+
+=== Resolved Issues
+
+* BugFix #12546: Failed to import rules in CEP
+* BugFix #12754: Badly formatted text on screen when password entered is wrong in User Settings
+* BugFix #12762: Full translation of error messages not implemented in User Settings
+* BugFix #12784: The email is not sent to the users listed in the Report
+* BugFix #12547: Importing CSV file in Sensors, Error 500!
+* BugFix #12607: Default tab not selected when swap view from tops on mobility
+* BugFix #12653: Sensors IP Variables (IDS/IPS)
+* BugFix #12656: Sensors Port Variables (IDS/IPS)
+* BugFix #12658: Sensor Group IP Variables (IDS/IPS)
+* BugFix #12660: Sensor Group Port Variables (IDS/IPS)
+* BugFix #12662: Sensor Group Binding IP Variables (IDS/IPS)
+* BugFix #12664: Sensor Group Binding Port Variables (IDS/IPS)
+* BugFix #12667: Sensor Event Rules Search Bar (Limits & Suppress)
+* BugFix #12707: Error with redfish on redBorder-proxy
+* BugFix #12711: Unable to update Shape / Image widget without uploading a new image
+* BugFix #12719: Multiple multilanguage missins translations and errores fixes
+* BugFix #12458: Advanced Search and Alarm Creation Error
+* BugFix #12481: Creating a ticket in Zendesk using the Redborder Manager
+* BugFix #12512: Addign a tier in Default Rules, General settigns
+* BugFix #12518: Error 500! in IP Variables, General Settings
+* BugFix #12538: Can't save a new filter in Advanced Search category (Social module)
+* BugFix #12541: Hanging Screen In Reports while Removing Page
