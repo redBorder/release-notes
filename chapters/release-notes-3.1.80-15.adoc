@@ -1,0 +1,35 @@
+== **Release Notes Version 3.1.80-15**
+
+* Release date: 12/August/2021
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-15.
+
+=== What's new
+
+* Support for Captive Portal using Flow Sensors
+* Alarms using Slack
+* New Apache plugin for Vault module
+* New Dnsmasq plugin for Vault module
+* New Business Intelligence module
+
+
+=== Improvements
+
+* Improvement #12946: Update of rmagick gem 
+
+=== Resolved Issues
+
+* BugFix #12841: Multiple fixes in Report module
+* BugFix #12892: Fixing druid feed for Intrusion module
+* BugFix #12904: Getting back darklist on Flow module
+* BugFix #12925: Clean cache for event enrichment process
+* BugFix #12958: Add vlan id support for proxy flow exporter
+* BugFix #12960: Fix netflow dimension (cisco_src_vlan)
+* BugFix #12962: Fix security issue on Monitor Categories
+* BugFix #12977: Fix bug on Vault Items View
+* BugFix #12989: Fix advance filters on Vault module
+* BugFix #12995: Fix API call with namespaces
+
+
