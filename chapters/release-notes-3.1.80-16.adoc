@@ -1,0 +1,29 @@
+== **Release Notes Version 3.1.80-16**
+
+* Release date: 19/October/2021
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-16.
+
+=== What's new
+
+* New Vulnerability Scanner module (that its disabled by default)
+
+
+=== Improvements
+
+* Improvement #13033: Register the logout of users in Audit section
+* Improvement #13034: Register change of credentials in Audit section
+* Improvement #13035: Register change of RSA key in Audit section
+* Improvement #13036: Now users can customize the lock session time
+* Improvement #13037: Improve the security requirments for users passwords
+
+
+=== Resolved Issues
+
+* BugFix #13057: Rsyslog fix on IDS/IPS sensor
+* BugFix #13062: Fix CheckAlarmsJob running when reactive Alarms
+* BugFix #12966: Fix error on rb-register in Proxy
+
+
