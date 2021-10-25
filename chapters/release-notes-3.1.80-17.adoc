@@ -1,0 +1,29 @@
+== **Release Notes Version 3.1.80-17**
+
+* Release date: 25/October/2021
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-17.
+
+=== What's new
+
+* There is nothing new on this version, we had been working on the audit area.
+
+
+=== Improvements
+
+* Improvement #13124: Now the system can export the audits table using the normal external syslog feature
+* Improvement #13127: Add audit for alarms module
+* Improvement #13128: Add audit for reputation and signature policies
+* Improvement #13133: Add audit for add/delete white/black networks on General Settings
+* Improvement #13134: Add audit entry when an alarm is triggered
+* Improvement #13136: Add audit when use check rule sources and updates a signature policy
+
+
+=== Resolved Issues
+
+* BugFix #13117: Fix issue with letsencrypt certificate and the Centos updates, now remote update is working again
+* BugFix #13121: Fix error on recreate RSA key
+
+
