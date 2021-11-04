@@ -1,0 +1,35 @@
+== **Release Notes Version 3.1.80-18**
+
+* Release date: 04/Novemeber/2021
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-18.
+
+=== What's new
+
+* There is nothing new on this version, we had been working expanding our audits area.
+
+=== Improvements
+
+* Improvement #13148: Audit General Settings
+* Improvement #13149: Audit http ssl certificates
+* Improvement #13150: Audit relay and ntp servers settings
+* Improvement #13151: Audit monitor and logs settings
+* Improvement #13152: Audit amazon cloudwatch settings
+* Improvement #13153: Audit network routes settings
+* Improvement #13154: Audit fixed Hosts settings
+* Improvement #13155: Audit geoIP file settings
+* Improvement #13157: Audit session timeout
+* Improvement #13158: Audit trap server settings
+* Improvement #13159: Audit radius accounting settings
+* Improvement #13160: Audit radius proxy authentication settings
+* Improvement #13166: Audit user login attempts and lockout user
+
+=== Resolved Issues
+
+* BugFix #13161: Fix missing tabs modules for monitor that cause problems on saving settings
+* BugFix #13177: Fix redBorder Community Webui
+
+
+
