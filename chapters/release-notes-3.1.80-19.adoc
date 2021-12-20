@@ -1,0 +1,50 @@
+== **Release Notes Version 3.1.80-19**
+
+* Release date: 20/December/2021
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-19.
+
+=== What's new
+
+* There is nothing new on this version, we had been working on fixing multiple bugs.
+
+=== Improvements
+
+* Improvement #13295: Change order of default Vault Tabs.
+* Improvement #13203: New default alarms on the platform.
+
+=== Resolved Issues
+
+* BugFix #13326: Fix problem with timestamp in vault sensor on proxy.
+* BugFix #13330: Fix adding default flow monitors cause a problem on the sensor creation affecting to the license system.
+* BugFix #13333: Fix adding default monitors in flow sensors.
+* BugFix #13341: Fix filter by sensor name on modules.
+* BugFix #13342: Fix filter by organization in monitor widgets.
+* BugFix #13343: Remove some rsyslog templates that were not needed in proxy.
+* BugFix #13346: Fix filters on Monitor Tops view.
+* BugFix #13353: Fix add monitor for device sensors.
+* BugFix #13281: Fix installing vault plugins on all nodes.
+* BugFix #13286: Fix translation error on filter sensor name, monitor module.
+* BugFix #13306: Fix custom monitors that were not working.
+* BugFix #13309: Fix missing device chef role.
+* BugFix #13380: Fix duplicate info in rb-scanner pipeline.
+* BugFix #13195: Fix alarms that cointains the character % in their title.
+* BugFix #13204: Fix logstash-plugin where not update after a cluster update.
+* BugFix #13212: Fix faling mongod virtual-ip setup on Cluster Setting.
+* BugFix #13215: Fix filter bug on mobility module after going to the map sensor view.
+* BugFix #13216: Fix missing translation on RAW Table widget.
+* BugFix #13220: Fix missing zone uuid on mobility pipeline.
+* BugFix #13223: Fix Location logstash filter doint counter_store and flow_counter causing the pipeline to act slow.
+* BugFix #13256: Fix custom snmp monitor operation cant be blank error.
+* BugFix #13257: Fix logstash pipelines activation in a cluster setup.
+* BugFix #13263: Fix missing translation on add widget (Infraestructure sensor) view.
+* BugFix #13264: Fix missing translation on Tools Overlay Maps view.
+* BugFix #13277: Fix missing client_id dimension on Vault module.
+* BugFix #13274: Fix empty plugin dimension caused druid realtime and rb-webui service stop working.
+
+
+
+
+
