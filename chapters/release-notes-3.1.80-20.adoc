@@ -1,0 +1,34 @@
+== **Release Notes Version 3.1.80-20**
+
+* Release date: 01/July/2022
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-20.
+
+=== What's new
+
+* Improve security by updating some essentials system services.
+
+=== Improvements
+
+* Improvement #14003: Add RPM RSA/SHA256 signature.
+* Improvement #14040: Disable TLS 1.0 and 1.1 in service application layer.
+
+=== Resolved Issues
+
+* BugFix #13141: Solve radius database update after change of Access Point Mac Address.
+* BugFix #13399: Solve social module service not running in proxy.
+* BugFix #13383: Solve namespace enrichment for scanner sensors.
+* BugFix #13395: Solve restarting problem for scanner service.
+* BugFix #13459: Fix missing CVE vulnerabilities data after installation.
+* BugFix #13491: Fix scanner sensor not draggable on sensor tree view.
+* BugFix #13573: Adapt system memory for sflow service.
+* BugFix #13592: Fix mongod.pid exists during rb_sysconf manager wizard.
+* BugFix #13656: Fix social module service property in proxy.
+* BugFix #13678: Fix GeoIP update links.
+
+
+
+
+
