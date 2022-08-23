@@ -1,0 +1,24 @@
+== **Release Notes Version 3.1.80-21**
+
+* Release date: 23/August/2022
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-21.
+
+=== What's new
+
+* Multiple bugs were fixed on this version.
+
+=== Resolved Issues
+
+* BugFix #13378: Solve problem on deletion of Rule Version Sources
+* BugFix #13388: Destiny Country was not showing in Intrusion module
+* BugFix #13697: Fix Advanced filters in rb-webui
+* BugFix #14097: Solve map not showing in Social module when BI module is enabled
+* BugFix #14110: Solve bug with postgresql restart service was hanging
+
+
+
+
+
