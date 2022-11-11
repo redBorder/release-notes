@@ -1,0 +1,27 @@
+== **Release Notes Version 3.1.80-22**
+
+* Release date: 11/November/2022
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-22.
+
+=== What's new
+
+* New traffic anomaly detection system.
+* Integration of malware detection functionality into enterprise version.
+
+=== Improvements
+
+* Improvement #1432: "Copy to cliboard" do not depend on flash anymore
+* Improvement #14095: Many improvements for Scanner module
+
+=== Resolved Issues
+
+* BugFix #14288: Fix name opscode-erchef instead of erchef in virtual ip configuration
+* BugFix #14277: Fix postgresql synchronization between nodes
+* BugFix #14227: Fix registration of ips, proxy and mail gateway
+
+
+
+
