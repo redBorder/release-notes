@@ -1,0 +1,35 @@
+== **Release Notes Version 3.1.80-23**
+
+* Release date: 11/January/2023
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-23.
+
+=== What's new
+
+* Integrate cuckoo and yara in malware analysis pipeline
+* Intrusion probes can now catch files through the network and send them to malware analysis
+
+=== Improvements
+
+* Improvement #14422: Improve clamscan speed analysis
+* Improvement #14433: New monitoring logstash metrics in Monitor module
+
+
+=== Resolved Issues
+
+* BugFix #14368: Fix kafka virtual ip
+* BugFix #14378: Fix duplicate custom tabs in rb-webui
+* BugFix #14382: Fix virustotal/metadefender crash malware data pipeline if API keys were empty
+* BugFix #14389: Fix plugins installation
+* BugFix #14403: Fix installation problems after manager domain name was changed
+* BugFix #14410: Fix s3 epmd error during installations
+* BugFix #14413: Fix installation problems after manager hostname was changed
+* BugFix #14418: Fix files were analysized more than once in malware analysis pipeline
+
+
+
+
+
+
