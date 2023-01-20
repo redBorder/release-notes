@@ -1,0 +1,25 @@
+== **Release Notes Version 3.1.80-24**
+
+* Release date: 20/January/2023
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-24.
+
+=== What's new
+
+* Nothing new on this release just important bug fixes
+
+=== Resolved Issues
+
+* BugFix #14443: Fix configuration of the orchestrator services
+* BugFix #14446: Fix wrong sensor names in logstash monitor tabs
+* BugFix #14449: Fix indexing of mobility information dont require nmspd or k2locd running on the cluster (can be run on proxy)
+* BugFix #14452: Fix anomaly detection not working when running in a different node than rb-webui service
+* BugFix #14455: Fix missing configuration on redis_lb service
+
+
+
+
+
+

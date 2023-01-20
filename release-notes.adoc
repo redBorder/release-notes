@@ -17,6 +17,7 @@
 
 = **redborder** release notes
 
+include::chapters/release-notes-3.1.80-24.adoc[]
 include::chapters/release-notes-3.1.80-23.adoc[]
 include::chapters/release-notes-3.1.80-22.adoc[]
 include::chapters/release-notes-3.1.80-21.adoc[]
