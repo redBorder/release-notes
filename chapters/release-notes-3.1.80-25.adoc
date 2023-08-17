@@ -15,6 +15,7 @@ This is the release notes for version 3.1.80-25.
 * Feature #14997: Now we can drop files based on size and type (Snort)
 * Feature #15089: Limit the number of backups stored
 * Feature #15152: New disk wiper utility on the boot menu
+* Feature #15382: New Traffic Map tab in Flow module
 
 === Improvements
 
