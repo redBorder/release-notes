@@ -1,0 +1,86 @@
+== **Release Notes Version 3.1.80-25**
+
+* Release date: 17/August/2023
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-25.
+
+=== What's new
+
+* Feature #14481: Create alarms over outliers detection
+* Feature #14532: Update ndpi on sflow pipeline
+* Feature #14646: Dynamic file preprocessor rules generation (file filter policies)
+* Feature #14974: Add URL block capabilities to IPS
+* Feature #14997: Now we can drop files based on size and type (Snort)
+* Feature #15089: Limit the number of backups stored
+* Feature #15152: New disk wiper utility on the boot menu
+* Feature #15382: New Traffic Map tab in Flow module
+
+=== Improvements
+
+* Improvement #14510, #14527: Add observation id support for sflow
+* Improvement #14565: Add logstash monitoring capabilities
+* Improvement #14705: Update ca-certificates
+* Improvement #14955: Modify iplist_script.rh to not delete malware agent lists
+* Improvement #14965: Improve rb_sysconf
+* Improvement #15024: Add rb-malware-agent to rb_check
+* Improvement #15116: Add filter rows in Scatterplot
+* Improvement #15131: Disable social module by default
+* Improvement #15139, #15327: Add "please wait" when updating General Settings
+* Improvement #15140: Add extra options in Outliers detector
+* Improvement #15201: Always draw the prediction line on outliers detection
+* Improvement #15233: Add possibility to change model options in outliers detection
+* Improvement #15347: Improve training data interval in outliers detection
+* Improvement #15373: Update monitor service
+
+=== Resolved Issues
+
+* BugFix #14427: Fix special characters not well escaped in file_uri (intrusion) and file_name (malware)
+* BugFix #14496: Fix nginx and chef-mover service was not starting after installation
+* BugFix #14521, #15277, #15296: Fix fuzzy malware pipeline
+* BugFix #14549: Fix sflow tag
+* BugFix #14559: Add dns name resolution for IPs in CSV exportation
+* BugFix #14592: Fix broken malware settings view
+* BugFix #14612: Fix duplicated severity on Yara rules
+* BugFix #14655: Fix new filter policy was remebering previous filter policy
+* BugFix #14677: Missing rb-reputation domain in /etc/hosts
+* BugFix #14681: Fix rb-reputation domain was not dynamic on rb-malware-agent
+* BugFix #14690: Fix rb-malware-agent service (http poll)
+* BugFix #14694: Add rb-malware-agent in rb_get_services.sh
+* BugFix #14713: Always send reload signals to snort in rb-malware-agent
+* BugFix #14851: Fix hostname in rb_sysconf
+* BugFix #14951: Fix segmentation fault when reloading via unix socket (IPs)
+* BugFix #15077: Malware Agent should make requests via https
+* BugFix #15104: Fix rb-malware-agent not cleaning when removing instances (CPUs)
+* BugFix #15115: Fix outliers on empty namespaces
+* BugFix #15150: Monitor segments view was broken
+* BugFix #15151: Avoid extending usb disk during first boot
+* BugFix #15157: Fix missing translation in scanner module
+* BugFix #15176: Fix ntpd in IPS
+* BugFix #15177: Fix snmpd in IPS
+* BugFix #15195: Duplicated snmpd inm rb_get_services.sh (mail gateway)
+* BugFix #15196: Sandbox should not be in rb_get_services.sh (mail gateway)
+* BugFix #15202: Fix negative values on outliers detection
+* BugFix #15225: Fix scanner profile creation incorrect id
+* BugFix #15229: Scanner module was creating a javascript call loop outside the module
+* BugFix #15243: Fix mail in quarantine not deleted after time specified
+* BugFix #15246: IP are whitelisted when not blacklisted
+* BugFix #15266: Fix mail gateway url catching
+* BugFix #15270: Fix MetDefender reputation urls scores requests
+* BugFix #15273: Fix MetaDefender malware pipeline
+* BugFix #15280: Fix yara malware pipeline
+* BugFix #15284, #15293: Fix Aerospike Score malware pipeline
+* BugFix #15287: Fix Rb Window pipeline
+* BugFix #15290: Fix Scores malware pipeline
+* BugFix #15296: Fix fuzzy malware pipeline
+* BugFix #15316: Fix sorting in Scatterplot
+* BugFix #15324: Fix update table on load more
+* BugFix #15332: Fix sorting in table views
+* BugFix #15343: Fix relay modal behind top bar
+
+
+
+
+
+
