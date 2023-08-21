@@ -1,6 +1,6 @@
 == **Release Notes Version 3.1.80-25**
 
-* Release date: 17/August/2023
+* Release date: 21/August/2023
 * Type: Standard
 * Main changes: redborder manager.
 
