@@ -1,0 +1,48 @@
+== **Release Notes Version 3.1.80-26**
+
+* Release date: 15/September/2023
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-26.
+This version fix a lot of minor and some critical bugs.
+
+=== What's new
+
+* None in this release
+
+=== Improvements
+
+* Improvement #14565, #15373: Update rb-monitor and logstash monitor capabilities 
+
+
+=== Resolved Issues
+
+* BugFix #10970: Fix correlation engine service
+* BugFix #11483, #15500: Fix visualization error for non admin users in Cluster Settings
+* BugFix #12903, #15476: Fix minor translation errors in Floor Map view
+* BugFix #13977: Fix assigned tabs for bulkstat and redfish monitors
+* BugFix #14524: No mongod is only enabled in master nodes
+* BugFix #15310: Fix motd of mail gateway
+* BugFix #15377: Fix non scape of ( ) character using "contains" in filters
+* BugFix #15394: Fix upper and bottom limit alarms form bug
+* BugFix #15437: Fix error during Sensor Tree exportation when missing floor map images
+* BugFix #15445: Disable epel-release repo by default
+* BugFix #15446: Remove elrepo repo
+* BugFix #15499: Fix screen blocked for non admin users in create filter policy
+* BugFix #15505: Fix critical bug that could allow RCE on Monitor Categories
+* BugFix #15521: Fix sensor import when one of the sensors is from a module that is not load on rb-webui service
+* BugFix #15532: Fix slack icon on Alarms table view
+* BugFix #15533: Fix missing creation of malware kafka topic
+* BugFix #15539: Now creation of topic when there is a new namespace is only made from the Master node
+
+
+
+
+
+
+
+
+
+
+
