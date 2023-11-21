@@ -1,0 +1,43 @@
+== **Release Notes Version 3.1.80-27**
+
+* Release date: 21/November/2023
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-27.
+This version fix a lot of minor and some critical bugs.
+
+=== What's new
+
+* None in this release
+
+=== Improvements
+
+* None in this release
+
+
+=== Resolved Issues
+
+* BugFix #11939: Fix webui timeout when define ips rule actions
+* BugFix #12967, #15757: Fix access point position on widget
+* BugFix #13682, #15376: Fix rule version view
+* BugFix #13705: Fix importing sensors with same name
+* BugFix #13707: Fix error with graph types in vault
+* BugFix #14199, #14211: Fix multiples bug in scanner
+* BugFix #14365: Fix duplicate tab in malware unique view
+* BugFix #15717: Fix get outliers from webui
+* BugFix #15561, #15617, #15632, #15672: Fix multiple bugs related with dashboard creation and sharing
+* BugFix #15658: Fix outliers with multiples namespaces
+* BugFix #15688: Fix cannot add gps marker on map bottom corner
+* BugFix #15692: Fix access point description with multiple lines cause problems in webui
+* BugFix #15706: Fix web map not showing well on full screen mode
+
+
+
+
+
+
+
+
+
+
