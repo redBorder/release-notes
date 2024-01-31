@@ -1,0 +1,42 @@
+== **Release Notes Version 3.1.80-28**
+
+* Release date: 31/January/2024
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-28.
+In this release, our main focus was on resolving bugs and improving the Mobility module.
+
+=== What's new
+
+* Feature #16032: Added box type widget to Mobility
+* Feature #16130: Added compare and export to CSV features to Mobility
+* Feature #15862: Now we support Aruba Central for Mobility information
+* Feature #15965: Added Access Points alarms
+
+=== Improvements
+
+* Improvement #16007: Now we can enable/disable overview widgets in General Settings
+* Improvement #16040: Pie Charts can now be set to always display the higher value
+
+=== Resolved Issues
+
+* BugFix #16077, #16013: Missing client count information in Access Points overview
+* BugFix #16093: Fixed error in the way we show data in Horizontal Bar Widget
+* BugFix #16074: Fixed time filter not being humanized in Mobility module
+* BugFix #15962: Fixed Quality metric in Mobility
+* BugFix #15947: Fixed error showing multiple metrics in Mobility
+* BugFix #16129: Fixed Mobility table widget ignoring its time range configuration
+* BugFix #16128: Fixed table widget not showing data correctly
+* BugFix #16208: Fixed generation of nmsp keys in Manager using the wrong interface
+* BugFix #16062: Sometimes installation was failing due to missing Chef configuration (client.pem))
+
+
+
+
+
+
+
+
+
+
