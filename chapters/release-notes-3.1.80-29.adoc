@@ -1,0 +1,45 @@
+== **Release Notes Version 3.1.80-29**
+
+* Release date: 18/March/2024
+* Type: Standard
+* Main changes: redborder manager.
+
+This is the release notes for version 3.1.80-29.
+
+In this update, our primary objective continued to be the resolution of existing bugs, 
+with a special emphasis on enhancing the functionality of the Mobility module. 
+We have identified additional bugs within the Mobility module and are committed to 
+addressing these in the forthcoming release.
+
+=== What's new
+
+* Feature #16324, #16695: Show Client MAC Address tab in Mobility
+* Feature #16549: Show Client MAC Vendor tab in Mobility
+* Feature #16345: Add cache system to improve number of API calls to Aruba Central service
+
+=== Improvements
+
+* Improvement #16375: Optimization in the way Mobility process pipeline work with its cache system
+* Improvement #16443: Add search box for some Mobility tabs
+* Improvement #16498: Update our MAC Vendor list used to enrich events
+* Improvement #16050: Add option to show last value by default in Multiser/serie widgets
+* Improvement #16558: Add associated clients that dont have x and y defined setting the closest AP x and y in Aruba Central service
+* Improvement #16626, #16677: Add compare view for Mobility
+* Improvement #16570: Ignore zone static devices (devices that dont change zones in last 24h)
+
+=== Resolved Issues
+
+* BugFix #16332, #16444, #16405: Multiple fixes to improve Aruba Central service
+* BugFix #16372, #16414, #16445, #16368, #16523, #16531: Multipe fixes in Mobility module
+* BugFix #16388: Fix nmspd service dont restart when applying new configuration 
+* BugFix #16492, #16468: Wrong order in the MAC Vendor enrich process was causing duplicate events for some Modules
+* BugFix #16495, #16478: MAC Vendor Enriching was missing in Mobility and NMSP pipelines
+* BugFix #16406: Fix cannot time select in Access Point sensor view
+* BugFix #16483: Missing Client Mac Vendor in Mobility and Wireless
+* BugFix #16557: Fix Floor level is not store on floor creation
+* BugFix #16299: Fix listen IP for sflow service
+* BugFix #16641: Fix multiple translation missing
+* BugFix #16456: Fix missing images on email sent after user creation and remove old social links
+
+
+
